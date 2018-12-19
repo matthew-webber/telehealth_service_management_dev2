@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Service Improvement Initiative activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_302510_servimpro_service_improvement_initiative_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-19 20:38:12</sys_created_on>
+        <sys_id>dc445dec4f2e2300b56100f18110c7cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_302510_servimpro_service_improvement_initiative_activity.fields</sys_name>
+        <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
+        <sys_update_name>sys_properties_dc445dec4f2e2300b56100f18110c7cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-19 20:38:12</sys_updated_on>
+        <type>string</type>
+        <value>improvement_coordinator,service,on_hold,impact,phase,priority,benefits,effort_estimate,percent_complete,short_description,initiative_importance,on_hold_reason,opened_by</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc445dec4f2e2300b56100f18110c7cc"/>
+</record_update>

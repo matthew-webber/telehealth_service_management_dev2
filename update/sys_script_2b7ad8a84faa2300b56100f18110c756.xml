@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_302510_servimpro_service_improvement_task</collection>
+        <condition>!current.parent.nil()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update parent percent complete</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[//Calculate number of siblings total vs complete
+   var countSibling = 0;
+   var countComplete = 0;
+   
+   var sibling = new GlideRecord('x_302510_servimpro_service_improvement_task');
+   sibling.addQuery('parent', current.parent);
+   sibling.query();
+   while(sibling.next()){
+      countSibling += 1;
+      if(sibling.state > 2){
+         countComplete += 1;
+
+      }
+   }
+   //Now update the parents percent (if needed)
+   percentCalc = (countComplete / countSibling) * 100;
+   if (!isNaN(percentCalc)) {
+      var parent = new GlideRecord('x_302510_servimpro_service_improvement_initiative');
+	  if (parent.get(current.parent.sys_id))
+         if(parent.percent_complete != percentCalc) {
+            parent.percent_complete = percentCalc;
+            parent.update();
+         }
+   }]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-19 16:34:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b7ad8a84faa2300b56100f18110c756</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Update parent percent complete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
+        <sys_update_name>sys_script_2b7ad8a84faa2300b56100f18110c756</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-19 17:31:19</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b7ad8a84faa2300b56100f18110c756"/>
+</record_update>

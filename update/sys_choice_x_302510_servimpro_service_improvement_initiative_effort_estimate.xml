@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="effort_estimate" table="x_302510_servimpro_service_improvement_initiative" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>effort_estimate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Small</label>
+            <language>en</language>
+            <name>x_302510_servimpro_service_improvement_initiative</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-18 22:00:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>844c98184f622300b56100f18110c70e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-18 22:00:48</sys_updated_on>
+            <value>small</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>effort_estimate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_302510_servimpro_service_improvement_initiative</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-18 22:01:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7ad90144f622300b56100f18110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-18 22:01:17</sys_updated_on>
+            <value>medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>effort_estimate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Large</label>
+            <language>en</language>
+            <name>x_302510_servimpro_service_improvement_initiative</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-18 22:01:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94cd94584f622300b56100f18110c7f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-18 22:01:36</sys_updated_on>
+            <value>large</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>effort_estimate</element>
+            <name>x_302510_servimpro_service_improvement_initiative</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-18 22:00:48</sys_created_on>
+            <sys_id>f49ddcd44f622300b56100f18110c720</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>effort_estimate</sys_name>
+            <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
+            <sys_update_name>sys_choice_x_302510_servimpro_service_improvement_initiative_effort_estimate</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-18 22:00:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

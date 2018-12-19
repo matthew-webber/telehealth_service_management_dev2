@@ -1,3 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Service Improvement Initiative" max_length="40" name="x_302510_servimpro_service_improvement_initiative" type="collection"/>
+    <element extends="task" label="Service Improvement Initiative" max_length="40" name="x_302510_servimpro_service_improvement_initiative" type="collection">
+        <element choice="3" label="Benefits" max_length="99" name="benefits" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="10" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="20" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="30" value="high"/>
+            </choice>
+        </element>
+        <element choice="3" label="Effort estimate" max_length="99" name="effort_estimate" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Small" sequence="10" value="small"/>
+                <element inactive_on_update="false" label="Medium" sequence="20" value="medium"/>
+                <element inactive_on_update="false" label="Large" sequence="30" value="large"/>
+            </choice>
+        </element>
+        <element label="Improvement coordinator" max_length="32" name="improvement_coordinator" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Why this initiative is important" max_length="999" name="initiative_importance" type="string"/>
+        <element label="Service" max_length="32" name="service" reference="cmdb_ci_lb_ace" type="reference"/>
+    </element>
 </database>

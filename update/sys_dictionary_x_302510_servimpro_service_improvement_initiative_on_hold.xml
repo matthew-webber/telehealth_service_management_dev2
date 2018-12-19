@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="phase" table="x_302510_servimpro_service_improvement_initiative">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="on_hold" table="x_302510_servimpro_service_improvement_initiative">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -11,13 +11,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Phase</column_label>
+        <column_label>On hold</column_label>
         <comments/>
         <create_roles/>
-        <default_value>10</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,18 +27,18 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>phase</element>
+        <element>on_hold</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
-        <max_length>99</max_length>
+        <max_length>40</max_length>
         <name>x_302510_servimpro_service_improvement_initiative</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-19 18:13:04</sys_created_on>
-        <sys_id>29d27c684fea2300b56100f18110c760</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Phase</sys_name>
+        <sys_created_on>2018-12-19 19:51:14</sys_created_on>
+        <sys_id>e66941684f2e2300b56100f18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On hold</sys_name>
         <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
-        <sys_update_name>sys_dictionary_x_302510_servimpro_service_improvement_initiative_phase</sys_update_name>
+        <sys_update_name>sys_dictionary_x_302510_servimpro_service_improvement_initiative_on_hold</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-19 18:28:14</sys_updated_on>
+        <sys_updated_on>2018-12-19 19:51:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

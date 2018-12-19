@@ -16,6 +16,16 @@
         </element>
         <element label="Improvement coordinator" max_length="32" name="improvement_coordinator" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Why this initiative is important" max_length="999" name="initiative_importance" type="string"/>
+        <element label="Percent complete" max_length="40" name="percent_complete" read_only="true" type="integer"/>
+        <element choice="3" default="10" label="Phase" max_length="99" name="phase" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="Accepted" sequence="20" value="20"/>
+                <element inactive_on_update="false" label="Implement" sequence="30" value="30"/>
+                <element inactive_on_update="false" label="Complete" sequence="50" value="50"/>
+                <element inactive_on_update="false" label="Cancel" sequence="60" value="-10"/>
+            </choice>
+        </element>
         <element label="Service" max_length="32" name="service" reference="cmdb_ci_lb_ace" type="reference"/>
     </element>
 </database>

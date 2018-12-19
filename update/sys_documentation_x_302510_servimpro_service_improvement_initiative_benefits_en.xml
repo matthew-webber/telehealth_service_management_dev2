@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="benefits" label="Benefits" language="en" table="x_302510_servimpro_service_improvement_initiative">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>benefits</element>
+            <help/>
+            <hint/>
+            <label>Benefits</label>
+            <language>en</language>
+            <name>x_302510_servimpro_service_improvement_initiative</name>
+            <plural>Benefits</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-18 21:50:38</sys_created_on>
+            <sys_id>f73b1cd44f622300b56100f18110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Benefits</sys_name>
+            <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
+            <sys_update_name>sys_documentation_x_302510_servimpro_service_improvement_initiative_benefits_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-18 21:50:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

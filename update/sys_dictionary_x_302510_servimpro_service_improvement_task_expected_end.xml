@@ -53,15 +53,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-19 16:08:18</sys_created_on>
-        <sys_id>610e91784fa66300b56100f18110c7ab</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>847b4ab8dbea6b00e2fa16994b961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Expected end</sys_name>
         <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
         <sys_update_name>sys_dictionary_x_302510_servimpro_service_improvement_task_expected_end</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-20 15:59:24</sys_updated_on>
+        <sys_updated_on>2018-12-20 19:17:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

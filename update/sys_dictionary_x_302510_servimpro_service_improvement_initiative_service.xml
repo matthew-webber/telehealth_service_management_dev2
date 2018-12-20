@@ -40,7 +40,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="cmdb_ci_lb_ace">cmdb_ci_lb_ace</reference>
+        <reference display_value="" name="x_scta_teleservice_telehealth_service">x_scta_teleservice_telehealth_service</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -55,15 +55,15 @@
         <sys_created_on>2018-12-18 22:07:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>047b4ab8dbea6b00e2fa16994b961905</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Service</sys_name>
         <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
         <sys_update_name>sys_dictionary_x_302510_servimpro_service_improvement_initiative_service</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-20 19:17:49</sys_updated_on>
+        <sys_updated_by>maw256</sys_updated_by>
+        <sys_updated_on>2018-12-20 19:45:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

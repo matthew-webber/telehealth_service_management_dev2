@@ -29,7 +29,7 @@
                 <element inactive_on_update="false" label="Cancel" sequence="60" value="-10"/>
             </choice>
         </element>
-        <element label="Service" max_length="32" name="service" reference="cmdb_ci_lb_ace" type="reference"/>
+        <element label="Service" max_length="32" name="service" reference="x_scta_teleservice_telehealth_service" type="reference"/>
         <index name="index">
             <element name="service"/>
         </index>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_302510_servimpro.coordinator" name="x_302510_servimpro.coordinator">c7feddb84fa66300b56100f18110c7cb</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-20 16:03:49</sys_created_on>
+        <sys_id>430f5db84fa66300b56100f18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c7feddb84fa66300b56100f18110c7cb</sys_name>
+        <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
+        <sys_update_name>sys_embedded_help_role_430f5db84fa66300b56100f18110c7f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-20 16:03:49</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -15,7 +15,7 @@
             </choice>
         </element>
         <element label="Improvement coordinator" max_length="32" name="improvement_coordinator" reference="sys_user" reference_qual="active=true^roles=itil^ORroles=x_302510_servimpro.coordinator^EQ" reference_qual_condition="active=true^roles=itil^ORroles=x_302510_servimpro.coordinator^EQ" type="reference"/>
-        <element label="Why this initiative is important" max_length="999" name="initiative_importance" type="string"/>
+        <element label="Why this initiative is important" mandatory="true" max_length="999" name="initiative_importance" type="string"/>
         <element label="On hold" max_length="40" name="on_hold" type="boolean"/>
         <element label="On hold reason" max_length="499" name="on_hold_reason" type="string"/>
         <element label="Percent complete" max_length="40" name="percent_complete" read_only="true" type="integer"/>

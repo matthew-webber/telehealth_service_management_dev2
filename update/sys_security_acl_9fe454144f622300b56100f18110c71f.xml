@@ -4,7 +4,7 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description>Default access control on x_302510_servimpro_service_improvement_task</description>
+        <description>Allow coordinators/managers to create</description>
         <name>x_302510_servimpro_service_improvement_task</name>
         <operation display_value="create">create</operation>
         <script/>
@@ -12,14 +12,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-18 21:23:01</sys_created_on>
         <sys_id>9fe454144f622300b56100f18110c71f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>x_302510_servimpro_service_improvement_task</sys_name>
         <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
         <sys_update_name>sys_security_acl_9fe454144f622300b56100f18110c71f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-18 21:23:01</sys_updated_on>
+        <sys_updated_on>2018-12-20 16:08:18</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

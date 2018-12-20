@@ -11,11 +11,13 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-12-19 18:13:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>6e03fc684fea2300b56100f18110c79b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Phase</sys_name>
             <sys_package display_value="Service Improvement Management" source="x_302510_servimpro">2c21d4504f622300b56100f18110c747</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Service Improvement Management">2c21d4504f622300b56100f18110c747</sys_scope>
             <sys_update_name>sys_documentation_x_302510_servimpro_service_improvement_initiative_phase_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
